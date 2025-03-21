@@ -44,8 +44,8 @@ python mvp.py
 
 ## Estrutura do Projeto
 
-- mvp.py: Script principal que contém a lógica de coleta de dados, análise e recomendação. Este arquivo é obrigatório.
-- decision_history.csv: Arquivo CSV que armazena o histórico de decisões. Ele é criado automaticamente, mas você pode incluí-lo no repositório como exemplo. É opcional, mas útil.
+'mvp.py:' Script principal que contém a lógica de coleta de dados, análise e recomendação. Este arquivo é obrigatório.
+'decision_history.csv:' Arquivo CSV que armazena o histórico de decisões. Ele é criado automaticamente, mas você pode incluí-lo no repositório como exemplo. É opcional, mas útil.
 
 ## Contribuição
 
