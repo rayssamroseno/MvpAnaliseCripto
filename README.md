@@ -13,16 +13,16 @@ Este projeto é um MVP (Minimum Viable Product) para análise e recomendação d
 ## Pré-requisitos
 
 - Python 3.7 ou superior.
-- Bibliotecas Python: `requests`, `vaderSentiment`, `matplotlib`.
+- Bibliotecas Python: `requests`, `vaderSentiment`.
 
 ## Configuração do Ambiente
 
 1. **Clone o repositório:**
 
-   ```bash
+```bash
    git clone https://github.com/rayssamroseno/MvpAnaliseCripto.git
    cd MvpAnaliseCripto
-      ```
+```
 
 2. **Instale as dependências:**
 
@@ -38,17 +38,14 @@ python mvp.py
 
 4. **Siga as instruções no terminal:**
 
-O programa irá coletar dados de criptomoedas e fornecer recomendações.
-
-Você poderá registrar decisões de compra, venda ou manutenção.
-
-O histórico de decisões será salvo no arquivo decision_history.csv.
+- O programa irá coletar dados de criptomoedas e fornecer recomendações.
+- Você poderá registrar decisões de compra, venda ou manutenção.
+- O histórico de decisões será salvo no arquivo decision_history.csv.
 
 ## Estrutura do Projeto
 
-mvp.py: Script principal que contém a lógica de coleta de dados, análise e recomendação. Este arquivo é obrigatório.
-
-decision_history.csv: Arquivo CSV que armazena o histórico de decisões. Ele é criado automaticamente, mas você pode incluí-lo no repositório como exemplo. É opcional, mas útil.
+- mvp.py: Script principal que contém a lógica de coleta de dados, análise e recomendação. Este arquivo é obrigatório.
+que armazena o histórico de decisões. Ele é criado automaticamente, mas você pode incluí-lo no repositório como exemplo. É opcional, mas útil.
 
 ## Contribuição
 
@@ -60,6 +57,7 @@ Crie uma branch para sua feature (git checkout -b feature/nova-feature).
 
 Commit suas mudanças (git commit -m 'Adicionando nova feature').
 
+- decision_history.csv: Arquivo CSV 
 Push para a branch (git push origin feature/nova-feature).
 
 Abra um Pull Request.
