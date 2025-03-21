@@ -20,8 +20,8 @@ Este projeto é um MVP (Minimum Viable Product) para análise e recomendação d
 1. **Clone o repositório:**
 
 ```bash
-   git clone https://github.com/rayssamroseno/MvpAnaliseCripto.git
-   cd MvpAnaliseCripto
+git clone https://github.com/rayssamroseno/MvpAnaliseCripto.git
+cd MvpAnaliseCripto
 ```
 
 2. **Instale as dependências:**
@@ -45,7 +45,7 @@ python mvp.py
 ## Estrutura do Projeto
 
 - mvp.py: Script principal que contém a lógica de coleta de dados, análise e recomendação. Este arquivo é obrigatório.
-que armazena o histórico de decisões. Ele é criado automaticamente, mas você pode incluí-lo no repositório como exemplo. É opcional, mas útil.
+- decision_history.csv: Arquivo CSV que armazena o histórico de decisões. Ele é criado automaticamente, mas você pode incluí-lo no repositório como exemplo. É opcional, mas útil.
 
 ## Contribuição
 
@@ -57,7 +57,7 @@ Crie uma branch para sua feature (git checkout -b feature/nova-feature).
 
 Commit suas mudanças (git commit -m 'Adicionando nova feature').
 
-- decision_history.csv: Arquivo CSV 
+decision_history.csv: Arquivo CSV 
 Push para a branch (git push origin feature/nova-feature).
 
 Abra um Pull Request.
